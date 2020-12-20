@@ -1,0 +1,22 @@
+from translate import Translator
+
+# 英语翻译中文
+translator = Translator(to_lang="chinese")
+print(translator.translate("Beautiful is better than ugly."))
+print(translator.translate("Simple is better than complex."))
+print(translator.translate("Complex is better than complicated."))
+print(translator.translate("Flat is better than nested."))
+print(translator.translate("Sparse is better than dense."))
+print(translator.translate("Readability counts."))
+print(translator.translate("Special cases aren't special enough to break the rules."))
+print(translator.translate("Although practicality beats purity."))
+print(translator.translate("Errors should never pass silently."))
+print(translator.translate("Unless explicitly silenced."))
+print(translator.translate("In the face of ambiguity, refuse the temptation to guess."))
+print(translator.translate("There should be one-- and preferably only one --obvious way to do it."))
+print(translator.translate("Although that way may not be obvious at first unless you're Dutch."))
+print(translator.translate("Now is better than never."))
+print(translator.translate("Although never is often better than *right* now."))
+print(translator.translate("If the implementation is hard to explain, it's a bad idea."))
+print(translator.translate("If the implementation is easy to explain, it may be a good idea."))
+print(translator.translate("Namespaces are one honking great idea -- let's do more of those!"))
